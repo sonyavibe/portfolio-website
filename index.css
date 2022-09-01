@@ -25,4 +25,168 @@ img {
 body {
   font-family: 'Epilogue', sans-serif;
   font-family: 'Open Sans', sans-serif;
+  background: #F1F1F1;
+}
+
+.top{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 1075px;
+  height: 36px;
+  margin-top: 40px;
+  margin-bottom: 76px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h3 {
+  font-family: 'Epilogue';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 41px;
+color: #000000;
+}
+
+.switch {
+  width: 72px;
+  height: 36px;
+}
+
+h1 {
+font-family: 'Epilogue';
+font-style: normal;
+font-weight: 700;
+font-size: 55px;
+line-height: 120.5%;
+color: #000000;
+width: 609.45px;
+height: 179px;
+}
+
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 1075px;
+  height: 467px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#pfp {
+  width: 422.69px;
+height: 467px;
+}
+
+.subtext {
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 28px;
+line-height: 120.5%;
+color: #000000;
+width: 415.8px;
+height: 108px;
+margin-top: 32px;
+}
+
+.subtext1 {
+width: 444px;
+height: 108px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 28px;
+line-height: 120.5%;
+color: #000000;
+margin-top: 23px;
+}
+
+a {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 120.5%;
+  color: #000000;
+  transition: color 0.1s ease-in 150ms
+}
+
+a:hover {
+  color: #49FF51;
+}
+
+h2 {
+font-family: 'Epilogue';
+font-style: normal;
+font-weight: 500;
+font-size: 40px;
+line-height: 120.5%;
+color: #000000;
+}
+
+.project-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 1075px;
+  height: 467px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.pc {
+  width: 527px;
+  height: 316px;
+}
+
+.button1 {
+  width: 150px;
+  height: 50px;
+  padding-top: 11px;
+  padding-bottom: 11px;
+  padding-left: 21px;
+  padding-right: 21px;
+  margin-top: 23px;
+  
+  background: #1E1E1E;
+  box-shadow: 0px 4px 17px rgba(0, 0, 0, 0.25);
+  border-radius: 54px;
+
+  font-family: 'SF Pro Display';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 120.5%;
+  color: #D9D9D9;
+  text-align: center;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between
+
+  transition: transition: drop-shadow 0.1s ease-in 150ms
+}
+
+.button1:hover {
+  filter: drop-shadow(0px 16px 47px rgba(73, 255, 81, 0.8));
+}
+
+.button1:active {
+  filter: drop-shadow(0px 16px 47px rgba(73, 255, 81, 0.8));
+  background: #49FF51;
+  color:#1E1E1E;
+  border-color: #1E1E1E;
+}
+
+
+.bimg {
+  width: 36px;
+  height: 36px;
+  margin-left: 15px;
+  align-self: center;
 }
