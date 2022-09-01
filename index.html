@@ -13,36 +13,41 @@
   <link rel="stylesheet" href="index.css">
 </head>
 <body>
-  
+
   <header>
-    <div>
-      <p>sofya.vibe</p>
-      <img src="" alt="кнопка день/ночь">
+    <div class="top">
+      <h3>sofya.vibe</h3>
+      <img class="switch" src="images/light switch.png" alt="кнопка день/ночь">
     </div>
-    <div>
-      <h1>I’m a web developer that likes to build cool stuff + эмодзи</h1>
-      <p>click here to see sm links</p>
-    </div>
-    <div>
-      <img src="images/light pixel.png" alt="minimalistic illustration of me :)"> 
-      <!-- добавить адаптивное 2х изображение через свойство srcset -->
+    <div class="main">
+      <div class="heading">
+        <h1>I’m a web developer that likes to build cool stuff 🤘</h1>
+        <p class="subtext">click <a href="/">here</a> to see sm links</p>
+      </div>
+      <div>
+        <img id="pfp" src="images/light pixel.png" alt="minimalistic illustration of me :)"> 
+        <!-- добавить адаптивное 2х изображение через свойство srcset -->
+      </div>
     </div>
   </header>
 
   <main>
-    <!--//двуколоночный макет-->
     <div>
-      <div><!--//projects section-->
-        <img src="/" alt="project preview">
-        <h2>Project name 1</h2>
-        <p>blah blah here i am describing it but i need more words so that it would be several strings :)</p>
-        <button>more</button>
+      <div class="project-card">
+        <img class="pc" src="images/Rectangle 2.png" alt="project preview">
+        <div>
+          <h2>Project name 1</h2>
+          <p class="subtext1">blah blah here i am describing it but i need more words so that it would be several strings :)</p>
+          <button class="button1">more<img class="bimg" src="images/pointing finger.png" alt="emoji finger"></button>
+        </div>
       </div>
-      <div>
-        <h2>Project name 1</h2>
-        <p>blah blah here i am describing it but i need more words so that it would be several strings :)</p>
-        <button>more</button>
-        <img src="/" alt="project preview">
+      <div class="project-card">
+        <div>
+          <h2>Project name 1</h2>
+          <p class="subtext1">blah blah here i am describing it but i need more words so that it would be several strings :)</p>
+          <button class="button1">more<img class="bimg" src="images/pointing finger.png" alt="emoji finger"></button>
+        </div>
+        <div><img class="pc" src="images/Rectangle 2.png" alt="project preview"></div>
       </div>
     </div> 
     <div><!--//about me section-->
