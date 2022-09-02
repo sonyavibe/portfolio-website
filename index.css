@@ -73,6 +73,7 @@ height: 179px;
   height: 467px;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 200px;
 }
 
 #pfp {
@@ -94,9 +95,9 @@ margin-top: 32px;
 
 .subtext1 {
 width: 444px;
-height: 108px;
+height: 108px;}
 
-font-family: 'Open Sans';
+p, .subtext {font-family: 'Open Sans';
 font-style: normal;
 font-weight: 400;
 font-size: 28px;
@@ -142,6 +143,9 @@ color: #000000;
 .pc {
   width: 527px;
   height: 316px;
+  box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+  background: #D9D9D9;
 }
 
 .button1 {
@@ -164,6 +168,7 @@ color: #000000;
   line-height: 120.5%;
   color: #D9D9D9;
   text-align: center;
+  border-width: 0px;
 
   display: flex;
   align-items: center;
@@ -172,15 +177,41 @@ color: #000000;
   transition: transition: drop-shadow 0.1s ease-in 150ms
 }
 
-.button1:hover {
+.button1:hover, .button2:hover {
   filter: drop-shadow(0px 16px 47px rgba(73, 255, 81, 0.8));
 }
 
-.button1:active {
+.button1:active, .button2:active {
   filter: drop-shadow(0px 16px 47px rgba(73, 255, 81, 0.8));
   background: #49FF51;
   color:#1E1E1E;
+  border-width: 2px;
   border-color: #1E1E1E;
+}
+
+.button2 {
+  width: 482px;
+  height: 65px;
+  padding-left: 132px;
+  margin-top: 20px;
+
+  background: #1E1E1E;
+  border-radius: 15px;
+  border-width: 0ch;
+
+  font-family: 'Epilogue';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 120.5%;
+  /* or 39px */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #D9D9D9;
+
 }
 
 
@@ -189,4 +220,60 @@ color: #000000;
   height: 36px;
   margin-left: 15px;
   align-self: center;
+}
+
+.about-me, .lwt {
+  width: 1075px;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 200px;
+}
+
+.about-me-d {
+  margin-top: 33px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.amd {
+  width: 503px;
+}
+
+.lwtinside {
+  display: flex;
+  align-items: center;
+  justify-content: space-between
+}
+
+.form1, .form2 {
+  width: 482px;
+  height: 65px;
+  padding-left: 28px;
+  background: #D9D9D9;
+  border-radius: 15px;
+  border-width: 0ch;
+  margin-top: 10px;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 120.5%;
+  display: flex;
+  align-items: center;
+  color: #595959;
+}
+
+.form2 {
+  height: 251px;
+  align-items: left;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 28px;
+}
+
+.smdiv {
+  width: 450px;
+  font-size: 36px;
 }
