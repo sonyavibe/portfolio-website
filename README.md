@@ -5,4 +5,5 @@ me making my own portfolio website instead of crafting a decent looking cv
     <b>22-26.08</b> - crafting a responsive ui in figma (project link -> https://www.figma.com/file/Rs0lZCqFW34NASW3KYdAk4/Untitled?node-id=0%3A1)<br>
     actually, i've been learning how to code for over a year now but it is my first time trying to build a whole-ass project from scratch all by myself. as they say - the best way to learn is by doing :)<br>
     <b>31.08</b> - made a basic html structure + started crafting css<br>
-    <b>01.09</b> - putting up together css - omg it works out!! am i..... able to code?..........🥺
+    <b>01.09</b> - putting up together css - omg it works out!! am i..... able to code?..........🥺<br>
+    <b>02.09</b> - finished making light theme and set up an actually working email form (i sent myself a pointless message and it worked lol), feeling proud of my own googling abilities :D
