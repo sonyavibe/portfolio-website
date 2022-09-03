@@ -29,16 +29,28 @@ body {
   --primary-bg: #F1F1F1;
   --primary-text: #111111;
   --link: #111111;
+  --button-bg: #1e1e1e;
+  --button-text: #d9d9d9;
+  --button-border: #1e1e1e;
 
   background-color: var(--primary-bg);
   color: var(--primary-text);
 
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 120.5%;
 }
 
 body.dark {
   --primary-bg: #373737;
   --primary-text:#f1f1f1;
+  --button-bg: #d9d9d9;
+  --button-text: #1e1e1e;
+  --button-border: #d9d9d9;
 }
+
 .label {
   display:flex;
   width: 72px;
@@ -49,7 +61,7 @@ body.dark {
 
   align-items: center;
   justify-content: space-between;
-  padding: 12px;
+  padding: 7px;
   position: relative;
 }
 
@@ -72,17 +84,9 @@ body.dark {
   transform: translateX(36px);
 }
 
-.fa-regular fa-moon {
-  color: #000000;
+i {
+  color: var(--primary-text);
 }
-
-.fa-regular fa-sun-bright {
-  color: #000000;
-}
-
-
-
-
 
 .top{
   display: flex;
@@ -102,7 +106,6 @@ font-style: normal;
 font-weight: 700;
 font-size: 40px;
 line-height: 41px;
-
 }
 
 .switch {
@@ -138,12 +141,6 @@ height: 467px;
 }
 
 .subtext {
-font-family: 'Open Sans';
-font-style: normal;
-font-weight: 400;
-font-size: 28px;
-line-height: 120.5%;
-
 width: 415.8px;
 height: 108px;
 margin-top: 32px;
@@ -213,7 +210,7 @@ line-height: 120.5%;
   padding-right: 21px;
   margin-top: 23px;
   
-  background: #1E1E1E;
+  background: var(--button-bg);
   box-shadow: 0px 4px 17px rgba(0, 0, 0, 0.25);
   border-radius: 54px;
 
@@ -222,7 +219,7 @@ line-height: 120.5%;
   font-weight: 400;
   font-size: 24px;
   line-height: 120.5%;
-  color: #D9D9D9;
+  color: var(--button-text);
   text-align: center;
   border-width: 0px;
 
@@ -240,9 +237,9 @@ line-height: 120.5%;
 .button1:active, .button2:active {
   filter: drop-shadow(0px 16px 47px rgba(73, 255, 81, 0.8));
   background: #49FF51;
-  color:#1E1E1E;
+  color: #111111;
   border-width: 2px;
-  border-color: #1E1E1E;
+  border-color: var(--button-border);
 }
 
 .button2 {
@@ -251,7 +248,7 @@ line-height: 120.5%;
   padding-left: 132px;
   margin-top: 20px;
 
-  background: #1E1E1E;
+  background-color: var(--button-bg);
   border-radius: 15px;
   border-width: 0ch;
 
@@ -265,9 +262,7 @@ line-height: 120.5%;
   display: flex;
   align-items: center;
   text-align: center;
-
-  color: #D9D9D9;
-
+  color: var(--button-text);
 }
 
 
