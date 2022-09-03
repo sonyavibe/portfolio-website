@@ -6,4 +6,5 @@ me making my own portfolio website instead of crafting a decent looking cv
     actually, i've been learning how to code for over a year now but it is my first time trying to build a whole-ass project from scratch all by myself. as they say - the best way to learn is by doing :)<br>
     <b>31.08</b> - made a basic html structure + started crafting css<br>
     <b>01.09</b> - putting up together css - omg it works out!! am i..... able to code?..........🥺<br>
-    <b>02.09</b> - finished making light theme and set up an actually working email form (i sent myself a pointless message and it worked lol), feeling proud of my own googling abilities :D
+    <b>02.09</b> - finished making light theme and set up an actually working email form (i sent myself a pointless message and it worked lol), feeling proud of my own googling abilities :D<br>
+    <b>03.09</b> - faced a first struggle but successfully overcame it and added a light/dark mode toggle to the page!<br>
