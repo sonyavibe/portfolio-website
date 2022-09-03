@@ -11,13 +11,22 @@
   <link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@400;500;700&family=Open+Sans&display=swap" rel="stylesheet">
 
   <link rel="stylesheet" href="index.css">
+  <script src="https://kit.fontawesome.com/5c56066c09.js" crossorigin="anonymous"></script>
 </head>
 <body>
 
   <header>
     <div class="top">
       <h3>sofya.vibe</h3>
-      <img class="switch" src="images/light switch.png" alt="кнопка день/ночь">
+      <!--<img class="switch" src="images/light switch.png" alt="кнопка день/ночь">-->
+      <div>
+        <input type="checkbox" class="checkbox" id="checkbox">
+        <label for="checkbox" class="label">
+          <i class="fa-regular fa-sun"></i>
+          <i class="fa-regular fa-moon"></i>
+          <div class="ball"></div>
+        </label>
+      </div>
     </div>
     <div class="main">
       <div class="heading">
@@ -80,5 +89,6 @@
     </div> 
     <div class="lwt" style="padding-bottom: 30px"><p>Website designed and developed by Sofya Vibe<br>(c) 2022, all rights reserved.</p></div>
   </main>
+  <script src="script.js"></script>
 </body>
 </html>
