@@ -43,7 +43,7 @@ body {
   font-family: 'Open Sans';
   font-style: normal;
   font-weight: 400;
-  font-size: 28px;
+  font-size: 2vw;
   line-height: 120.5%;
   transition: 0.2s ease-in 100ms;
 }
@@ -58,20 +58,24 @@ body.dark {
   --form-text: #d9d9d9;
 }
 
+.img {
+  display: flex;
+  flex-shrink: 3;
+}
 
 
 .label {
   display:flex;
-  width: 72px;
-  height: 36px;
+  width: 5vw;
+  height: 2.5vw;
   border-radius: 18px;
   background-color: #D9D9D9;
   box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
 
   align-items: center;
-  justify-content: space-between;
-  padding: 7px;
-  padding-left: 10px;
+  justify-content: space-around;
+  padding: 0.7vw;
+  
   position: relative;
 }
 
@@ -81,8 +85,8 @@ body.dark {
 }
 
 .ball {
-  width: 32px;
-  height: 32px;
+  width: 2.3vw;
+  height: 2.3vw;
   left: 2px;
   border-radius: 50%;
   background-color: #F1F1F1;
@@ -91,7 +95,7 @@ body.dark {
 }
 
 .checkbox:checked + .label .ball {
-  transform: translateX(36px);
+  transform: translateX(2.3vw);
 }
 
 i {
@@ -102,19 +106,19 @@ i {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 1075px;
+  max-width: 1075px;
   height: 36px;
   margin-top: 40px;
   margin-bottom: 76px;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 10vw;
+  margin-right: 10vw;
 }
 
 h3 {
   font-family: 'Epilogue';
 font-style: normal;
 font-weight: 700;
-font-size: 40px;
+font-size: 3vw;
 line-height: 41px;
 }
 
@@ -127,29 +131,31 @@ h1 {
 font-family: 'Epilogue';
 font-style: normal;
 font-weight: 700;
-font-size: 55px;
+font-size: 4vw;
 line-height: 120.5%;
 
-width: 609.45px;
+width: 45vw;
 height: 179px;
+
+}
+
+.heading {
+  display: flex;
+  flex-direction: column;
+  height: 17vmax;
 }
 
 .main {
+  
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  width: 1075px;
-  height: 467px;
-  margin-left: auto;
-  margin-right: auto;
+  justify-content: space-around;
+  flex: 1 1 1075px;
+  max-width: 1075px;
+  height: auto;
+  margin-left: 10vw;
+  margin-right: 10vw;
   margin-bottom: 200px;
-}
-
-
-.subtext {
-width: 415.8px;
-height: 108px;
-margin-top: 32px;
 }
 
 .subtext1 {
@@ -159,9 +165,8 @@ height: 108px;}
 p, .subtext {font-family: 'Open Sans';
 font-style: normal;
 font-weight: 400;
-font-size: 28px;
+font-size: 2vw;
 line-height: 120.5%;
-
 margin-top: 23px;
 }
 
@@ -169,7 +174,7 @@ a {
   font-family: 'Open Sans';
   font-style: normal;
   font-weight: 400;
-  font-size: 28px;
+  font-size: 2vw;
   line-height: 120.5%;
   color: var(--primary-text);
   transition: color 0.2s ease-in 100ms;
@@ -183,7 +188,7 @@ h2 {
 font-family: 'Epilogue';
 font-style: normal;
 font-weight: 500;
-font-size: 40px;
+font-size: 3vw;
 line-height: 120.5%;
 
 }
@@ -192,16 +197,17 @@ line-height: 120.5%;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 1075px;
+  flex: 1 1 1075px;
+  max-width: 1075px;
   height: 467px;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 10vw;
+  margin-right: 10vw;
 }
 
 
 .pc {
-  width: 527px;
-  height: 316px;
+  max-width 527px;
+  max-height: 316px;
   box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.25);
   border-radius: 15px;
   background: #D9D9D9;
@@ -280,10 +286,10 @@ line-height: 120.5%;
 }
 
 .about-me, .lwt {
-  width: 1075px;
+  max-width: 1075px;
   align-items: center;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 10vw;
+  margin-right: 10vw;
   margin-top: 200px;
 }
 
