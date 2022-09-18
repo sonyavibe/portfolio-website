@@ -10,7 +10,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@400;500;700&family=Open+Sans&display=swap" rel="stylesheet">
 
-  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="key.css">
   <script src="https://kit.fontawesome.com/5c56066c09.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -18,7 +18,6 @@
   <header>
     <div class="top">
       <h3>sofya.vibe</h3>
-      <!--<img class="switch" src="images/light switch.png" alt="кнопка день/ночь">-->
       <div>
         <input type="checkbox" class="checkbox" id="checkbox">
         <label for="checkbox" class="label">
@@ -30,11 +29,11 @@
     </div>
     <div class="main">
       <div class="heading">
-        <h1 class="h1-wrapper">I’m a web developer that likes to build cool stuff 🤘</h1>
-        <p class="subtext">click <a href="/">here</a> to see my links</p>
+        <h1>I’m a web developer that likes to build cool stuff 🤘</h1>
+        <p>click <a href="/">here</a> to see my links</p>
       </div>
-      <div class="img">
-        <img src="images/image_main.PNG">
+      <div>
+        <img class="img" src="images/image_main.PNG">
       </div>
     </div>
   </header>
@@ -42,48 +41,45 @@
   <main>
     <div>
       <div class="project-card">
-        <img class="pc" src="images/Rectangle 2.png" alt="project preview">
-        <div>
+        <img class="pc" id="pc" src="images/Rectangle 2.png" alt="project preview">
+        <div id="pctext">
           <h2>Project name 1</h2>
           <p class="subtext1">blah blah here i am describing it but i need more words so that it would be several strings :)</p>
           <button class="button1">more<img class="bimg" src="images/pointing finger.png" alt="emoji finger"></button>
         </div>
       </div>
       <div class="project-card">
-        <div>
+        <div id="pctext">
           <h2>Project name 1</h2>
           <p class="subtext1">blah blah here i am describing it but i need more words so that it would be several strings :)</p>
           <button class="button1">more<img class="bimg" src="images/pointing finger.png" alt="emoji finger"></button>
         </div>
-        <div><img class="pc" src="images/Rectangle 2.png" alt="project preview"></div>
+        <div><img class="pc" id="pc" src="images/Rectangle 2.png" alt="project preview"></div>
       </div>
     </div> 
     <div class="about-me"><!--//about me section-->
       <h2>/*about me</h2>
       <div class="about-me-d">
-        <p class="amd" class="subtext">blah blah here i am describing it but i need more words so that it would be several strings :) and also some moar info bc its obvious that ill put smth interesting here hehehe</p>
-        <p class="amd" class="subtext">blah blah here i am describing it but i need more words so that it would be several strings :) and also some moar info bc its obvious that ill put smth interesting here hehehe</p>
+        <p class="amd">blah blah here i am describing it but i need more words so that it would be several strings :) and also some moar info bc its obvious that ill put smth interesting here hehehe</p>
+        <p class="amd">blah blah here i am describing it but i need more words so that it would be several strings :) and also some moar info bc its obvious that ill put smth interesting here hehehe</p>
       </div>
     </div> 
     <div class="lwt"><!--//lets work together section-->
-        <h2 style="margin-bottom: 38px">/*let's work together</h2>
+        <h2>/*let's work together</h2>
         <div class="lwtinside">
-        <div class="form">
-          <form action="https://formsubmit.co/sofyavibe@gmail.com" method="POST">
-            <input type="hidden" name="_next" value="https://yourdomain.co/thanks.html">
-            <input type="hidden" name="_subject" value="NEW EMAIL FROM THE WP">
-            <input class="form1" type="text" name="name" placeholder="name" required><br>
-            <input class="form1" type="email" name="email" placeholder="email" required><br>
-            <textarea class="form2" rows="4" cols="50" name="message" id="message" placeholder="message" required></textarea><br>
-            <button class="button2" type="submit">send an email</button>
-      </form>
-        </div>
-        <div>
-        <p class="smdiv">you can also find me on:<br><br>
-          --  <a style="font-size: 36px">github</a><br>
-          --  <a style="font-size: 36px">telegram</a><br>
-          --  <a style="font-size: 36px">linkedin</a>
-        </p></div>
+          <div class="form">
+            <form action="https://formsubmit.co/sofyavibe@gmail.com" method="POST">
+              <input type="hidden" name="_next" value="https://yourdomain.co/thanks.html">
+              <input type="hidden" name="_subject" value="NEW EMAIL FROM THE WP">
+              <input class="form1" type="text" name="name" placeholder="name" required><br>
+              <input class="form1" type="email" name="email" placeholder="email" required><br>
+              <textarea class="form2" rows="4" cols="50" name="message" id="message" placeholder="message" required></textarea><br>
+              <button class="button2" type="submit">send an email</button>
+        </form>
+          </div>
+          <div>
+          <p class="smdiv">you can also find me <u><a class="sm">here</a></u></p>
+          </div>
       </div>
     </div> 
     <div class="lwt" style="padding-bottom: 30px"><p>Website designed and developed by Sofya Vibe<br>(c) 2022, all rights reserved.</p></div>
