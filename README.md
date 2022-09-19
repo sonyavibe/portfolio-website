@@ -13,3 +13,4 @@ me making my own portfolio website instead of crafting a decent looking cv
     <b>06-15.09</b> - went on a trip with family to celebrate my birthday. parallel to the adventures was figuring out how flex elements work + developed ui for pop-ups with sm links<br>
     <b>16.09</b> - started making my site adaptive to the dimentions of the browser!<br>
     <b>18.09</b> - had a little mental breakdown and decided to approach responsiveness from another perspective and succeeded! finished putting up mobile version and @media stuff >:)<br>
+    <b>19.09</b> - yay i finished with crafting the responsive versions!!<br>
