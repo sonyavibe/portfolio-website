@@ -280,8 +280,275 @@ h2 {
 
 @media only screen and (min-width: 768px) {
 
-}
+  .top {
+    width: 578px;
+    margin-top: 50px;
+    margin-bottom: 80px;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+
+  .label {
+    display:flex;
+    width: 38px;
+    height: 20px;
+    border-radius: 20px;
+    padding: 0.5px;
+  }
+
+  .ball {
+    width: 19px;
+    height: 19px;
+    right: 19px;
+  }
+
+  .checkbox:checked + .label .ball {
+    transform: translateX(17px);
+  }
+
+  .img {
+    width: 200px;
+    height: auto;
+  }
+
+  h1 {
+    width: 285px;
+    height: 96px;
+    font-size: 27.5px;
+    margin-bottom: 32px;
+  }
+
+  p, a {
+    font-size: 16px;
+    }
+
+  .main {
+    height: 233.5px;
+    width: 578px;
+    margin-bottom: 80px;
+    }
+
+  h2 {
+    font-size: 20px;
+  }
+  
+  .project-card {
+    flex-direction: row;
+    width: 578px;
+    margin-bottom: 80px;
+    justify-content: space-between;
+    align-items: center;
+    }
+  
+  #pc, #pctext {
+    order: initial;
+  }
+
+  #pctext {
+    display: flex;
+    flex-direction: column;
+    width: 267px;
+  }
+
+  .pc {
+    width: 263.5px;
+    height: 158px;
+    border-radius: 15px;
+  }
+
+  .button1 {
+    width: 65px;
+    height: 25px;
+    font-size: 12px;
+    align-items: center;
+  }
+
+  .bimg {
+    width: 18px;
+    height: auto;
+  }
+
+  .about-me {
+    width: 578px;
+    margin-bottom: 50px;
+  }
+
+  .lwt {
+    width: 578px;
+  }
+
+  .lwtinside {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 80px;
+  }
+
+  .smdiv {
+    align-self: center;
+    font-size: 20px;
+  }
+
+  .sm {
+    font-size: 20px;
+  }
 
 @media only screen and (min-width: 1000px) {
+
+  .top {
+    width: 900px;
+    margin-top: 50px;
+    margin-bottom: 80px;
+  }
+
+  h3 {
+    font-size: 30px;
+  }
+
+  .label {
+    display:flex;
+    width: 58px;
+    height: 30px;
+    border-radius: 30px;
+    padding: 1px;
+  }
+
+  .ball {
+    width: 29px;
+    height: 29px;
+    right: 29px;
+  }
+
+  .checkbox:checked + .label .ball {
+    transform: translateX(27px);
+  }
+
+  .img {
+    width: 300px;
+    height: auto;
+  }
+
+  h1 {
+    width: 450px;
+    height: 150px;
+    font-size: 40px;
+    margin-bottom: 32px;
+  }
+
+  p, a {
+    font-size: 24px;
+    }
+
+  .main {
+    height: auto;
+    width: 900px;
+    margin-bottom: 80px;
+    }
+
+  h2 {
+    font-size: 30px;
+  }
+  
+  .project-card {
+    flex-direction: row;
+    width: 900px;
+    margin-bottom: 80px;
+    justify-content: space-between;
+    align-items: center;
+    }
+  
+  #pc, #pctext {
+    order: initial;
+  }
+
+  #pctext {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+  }
+
+  .pc {
+    width: 398.5px;
+    height: 237px;
+    border-radius: 23px;
+  }
+
+  .button1 {
+    width: 87px;
+    height: 37px;
+    font-size: 16px;
+    align-items: center;
+    padding-left: 12px;
+  }
+
+  .button1:hover, .button2:hover {
+    filter: drop-shadow(0px 16px 47px rgba(73, 255, 81, 1));
+  }
+
+  .bimg {
+    width: 27px;
+    height: auto;
+  }
+
+  .about-me {
+    width: 900px;
+    margin-bottom: 80px;
+  }
+
+  .about-me-d {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .amd {
+    width: 430px;
+  }
+
+  .lwt {
+    width: 900px;
+    margin-bottom: 80px;
+  }
+
+  .lwtinside {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 80px;
+  }
+
+  .form1, .form2 {
+    width: 398.5px;
+    height: 50px;
+    font-size: 20px;
+  }
+
+  .form2 {
+    width: 379px;
+    height: 150px;
+  }
+
+  .button2 {
+    width: 420px;
+    height: 50px;
+    font-size: 20px;
+    padding-left: 140px;
+    margin-top: 10px;
+  }
+
+  .smdiv {
+    align-self: center;
+    font-size: 30px;
+  }
+
+  .sm {
+    font-size: 30px;
+  }
 
 }
