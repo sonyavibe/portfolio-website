@@ -14,3 +14,4 @@ me making my own portfolio website instead of crafting a decent looking cv
     <b>16.09</b> - started making my site adaptive to the dimentions of the browser!<br>
     <b>18.09</b> - had a little mental breakdown and decided to approach responsiveness from another perspective and succeeded! finished putting up mobile version and @media stuff >:)<br>
     <b>19.09</b> - yay i finished with crafting the responsive versions!!<br>
+    <b>20.09</b> - today i figured out how to create pop-ups! feeling very accomplished as i wrote a working js and solved a problem, now i just need to fill this modal window with links to my social media (which clearly need some love before exposing them to the public😅)<br>
