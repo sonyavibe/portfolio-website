@@ -11,6 +11,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@400;500;700&family=Open+Sans&display=swap" rel="stylesheet">
 
   <link rel="stylesheet" href="key.css">
+  <link rel="stylesheet" href="modal.css">
   <script src="https://kit.fontawesome.com/5c56066c09.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -30,7 +31,12 @@
     <div class="main">
       <div class="heading">
         <h1>I’m a web developer that likes to build cool stuff 🤘</h1>
-        <p>click <a href="/">here</a> to see my links</p>
+        <p>click <button data-modal-target="#modal" class="popup">here</button> to see my links</p>
+        <div class="modal" id="modal">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, officiis.
+          <button data-close-button class="button3">&times;</button>
+        </div>
+        <div id="overlay"></div>
       </div>
       <div>
         <img class="img" src="images/image_main.PNG">
@@ -78,7 +84,7 @@
         </form>
           </div>
           <div>
-          <p class="smdiv">you can also find me <u><a class="sm">here</a></u></p>
+          <p class="smdiv">you can also find me <u><button data-modal-target="#modal" class="popup" class="popup1">here</button></u></p>
           </div>
       </div>
     </div> 
