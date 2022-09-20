@@ -102,7 +102,7 @@ h1 {
   margin-bottom: 5px;
 }
 
-p, a {font-family: 'Open Sans';
+p, a, .popup {font-family: 'Open Sans';
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
@@ -110,7 +110,14 @@ p, a {font-family: 'Open Sans';
   color: var(--primary-text);
   }
 
-a:hover {
+.popup, .popup1 {
+  background-color: rgba(0, 0, 0, 0);
+  border-width: 0px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+a:hover, .popup:hover {
   color: #49FF51;
 }
 
@@ -269,13 +276,9 @@ h2 {
 }
 
 .smdiv {
-  font-size: 16px;
+  font-size: 12px;
   line-height: 24px;
   margin-bottom: 63px;
-}
-
-.sm {
-  font-size: 16px;
 }
 
 @media only screen and (min-width: 768px) {
@@ -320,7 +323,7 @@ h2 {
     margin-bottom: 32px;
   }
 
-  p, a {
+  p, a, .popup {
     font-size: 16px;
     }
 
@@ -390,12 +393,10 @@ h2 {
 
   .smdiv {
     align-self: center;
-    font-size: 20px;
+    font-size: 16px;
   }
 
-  .sm {
-    font-size: 20px;
-  }
+}
 
 @media only screen and (min-width: 1000px) {
 
@@ -439,7 +440,7 @@ h2 {
     margin-bottom: 32px;
   }
 
-  p, a {
+  p, a, .popup {
     font-size: 24px;
     }
 
@@ -544,11 +545,7 @@ h2 {
 
   .smdiv {
     align-self: center;
-    font-size: 30px;
-  }
-
-  .sm {
-    font-size: 30px;
+    font-size: 24px;
   }
 
 }
