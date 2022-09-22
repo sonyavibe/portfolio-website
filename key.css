@@ -110,6 +110,80 @@ p, a, .popup {font-family: 'Open Sans';
   color: var(--primary-text);
   }
 
+.modal {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  width: 230px;
+  height: 300px;
+  background-color: var(--primary-bg);
+  border-radius: 35px;
+  z-index: 10;
+  padding: 35px;
+}
+
+.modal.active {
+  transform: translate(-50%, -50%) scale(1);
+}
+
+.modal-heading {
+  width: 192px;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.smicons {
+  width: 20px;
+  height: auto;
+  margin-right: 5px;
+}
+
+.smlinks {
+  display: flex;
+  flex-direction: column;
+}
+
+.singlelink {
+  display: flex;
+  margin-top: 15px;
+  align-items: center;
+}
+
+.button3 {
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  left: 255px;
+  top: 20px;
+  background: var(--button-bg);
+  box-shadow: 0px 4px 17px rgba(0, 0, 0, 0.25);
+  border-radius: 54px;
+  color: var(--button-text);
+  border: 0px;
+  
+}
+
+#overlay {
+  position: fixed;
+  opacity: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  pointer-events: none;
+  transition: 200ms ease-in-out;
+}
+
+#overlay.active {
+  opacity: 1;
+  pointer-events: all;
+}
+
 .popup, .popup1 {
   background-color: rgba(0, 0, 0, 0);
   border-width: 0px;
@@ -204,7 +278,7 @@ h2 {
   align-self: center;
 }
 
-.button1:active, .button2:active {
+.button1:active, .button2:active, button3:active {
   filter: drop-shadow(0px 16px 47px rgba(73, 255, 81, 0.8));
   background: #49FF51;
   color: #111111;
@@ -486,7 +560,7 @@ h2 {
     padding-left: 12px;
   }
 
-  .button1:hover, .button2:hover {
+  .button1:hover, .button2:hover, button3:hover {
     filter: drop-shadow(0px 16px 47px rgba(73, 255, 81, 1));
   }
 
