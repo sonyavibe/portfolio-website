@@ -15,3 +15,4 @@ me making my own portfolio website instead of crafting a decent looking cv
     <b>18.09</b> - had a little mental breakdown and decided to approach responsiveness from another perspective and succeeded! finished putting up mobile version and @media stuff >:)<br>
     <b>19.09</b> - yay i finished with crafting the responsive versions!!<br>
     <b>20.09</b> - today i figured out how to create pop-ups! feeling very accomplished as i wrote a working js and solved a problem, now i just need to fill this modal window with links to my social media (which clearly need some love before exposing them to the public😅)<br>
+    <b>21-24.09</b> - it was hard to pull myself to work after the horrible news... fell into apathy and crisis, couldn't find the answer to why am i even bothering... cobbled myself together and finished with the web-page. now it's time for copywriting, putting together social media and filling the site with content!<br>
