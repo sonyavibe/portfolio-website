@@ -4,6 +4,7 @@
 }
 
 body {
+  vertical-align: middle;
   font-family: 'Epilogue', sans-serif;
   font-family: 'Open Sans', sans-serif;
   font-family: 'Open Sans';
@@ -278,7 +279,7 @@ h2 {
   align-self: center;
 }
 
-.button1:active, .button2:active, button3:active {
+button:active {
   filter: drop-shadow(0px 16px 47px rgba(73, 255, 81, 0.8));
   background: #49FF51;
   color: #111111;
@@ -373,6 +374,49 @@ h2 {
     height: 20px;
     border-radius: 20px;
     padding: 0.5px;
+  }
+
+  .modal {
+    width: 500px;
+    height: 250px;
+    padding: 50px;
+  }
+
+  .modal-heading {
+    width: 435px;
+    margin-bottom: 40px;
+  }
+
+  .mh {
+    font-size: 28px;
+  }
+  
+  .smicons {
+    width: 35px;
+    margin-right: 10px;
+  }
+
+  .smdivv {
+    display: flex;
+    flex-direction: row;
+    height: 195px;
+    width: 400px;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+  }
+
+  .singlelink {
+    height: 27px;
+    margin-top: 20px;
+  }
+  
+  .button3 {
+    width: 27px;
+    height: 27px;
+    left: 545px;
+    top: 25px;
+    font-size: 20px;
   }
 
   .ball {
@@ -502,6 +546,49 @@ h2 {
     transform: translateX(27px);
   }
 
+  .modal {
+    width: 675px;
+    height: 325px;
+    padding: 50px;
+  }
+
+  .modal-heading {
+    width: 525px;
+    margin-bottom: 50px;
+  }
+
+  .mh {
+    font-size: 32px;
+  }
+  
+  .smicons {
+    width: 50px;
+    margin-right: 20px;
+  }
+
+  .smdivv {
+    display: flex;
+    flex-direction: row;
+    height: 195px;
+    width: 575px;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+  }
+
+  .singlelink {
+    height: 50px;
+    margin-top: 20px;
+  }
+  
+  .button3 {
+    width: 35px;
+    height: 35px;
+    left: 700px;
+    top: 25px;
+    font-size: 24px;
+  }
+
   .img {
     width: 300px;
     height: auto;
@@ -560,7 +647,7 @@ h2 {
     padding-left: 12px;
   }
 
-  .button1:hover, .button2:hover, button3:hover {
+  .button1:hover, .button2:hover, .button3:hover {
     filter: drop-shadow(0px 16px 47px rgba(73, 255, 81, 1));
   }
 
