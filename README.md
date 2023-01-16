@@ -1,8 +1,27 @@
-# portfolio-website
-me making my own portfolio website instead of crafting a decent looking cv
+ # portfolio-website
+me making my own portfolio website instead of crafting a decent looking cv<br>
+> actually it was my first-ever whole project to build using my freshly learned skills in html, css and javascript. i know that it's not perfect (it isn't even filled with content lol) but i'm really proud of my first-born :smirk_cat:
 
-<b>the link to the webpage itself: </b> https://sonyavibe.github.io/portfolio-website/ <br>
-* it is actually not finished but it's still worth being here ig 😅
+:paperclips:<b>the link to the webpage itself: </b> https://sonyavibe.github.io/portfolio-website/
+
+<img src="https://github.com/sonyavibe/portfolio-website/blob/main/for%20readme/1.PNG" width="500px"> <img src="https://github.com/sonyavibe/portfolio-website/blob/main/for%20readme/4.PNG"  width="480px">
+
+\*it is actually not finished but it's still worth being here ig 😅 <br><br>
+_here is a brief scrool through the page:_
+
+![](https://github.com/sonyavibe/portfolio-website/blob/main/for%20readme/ps1.gif)<br><br>
+as you can see, it has 2 color themes! moreover, there's also a popup for additional social media links and a working email form at the bottom of the page >:)<br><br>
+![](https://github.com/sonyavibe/portfolio-website/blob/main/for%20readme/ps2.gif) 
+
+<img src="https://github.com/sonyavibe/portfolio-website/blob/main/for%20readme/2.PNG" width="627"> <img src="https://github.com/sonyavibe/portfolio-website/blob/main/for%20readme/3.PNG" width="375">
+
+_also, it is fully responsible and converts perfectly to any device:_
+
+![](https://github.com/sonyavibe/portfolio-website/blob/main/for%20readme/ps3.gif)
+
+<hr>
+
+> ps: here's my log that i've been keeping for self-reflection, it looks kinda fun so i decided to leave it here hehe
 
 // history of updates<br>
     <b>22-26.08</b> - crafting a responsive ui in figma (project link -> https://www.figma.com/file/Rs0lZCqFW34NASW3KYdAk4/Untitled?node-id=0%3A1)<br>
@@ -20,3 +39,4 @@ me making my own portfolio website instead of crafting a decent looking cv
     <b>20.09</b> - today i figured out how to create pop-ups! feeling very accomplished as i wrote a working js and solved a problem, now i just need to fill this modal window with links to my social media (which clearly need some love before exposing them to the public😅)<br>
     <b>21-24.09</b> - it was hard to pull myself to work after the horrible news... fell into apathy and crisis, couldn't find the answer to why am i even bothering... cobbled myself together and finished with the web-page. now it's time for copywriting, putting together social media and filling the site with content!<br>
     <b>10.10</b> - added links to my socials. ig only projects section left to update and i can actually deploy this!<br>
+ 
